@@ -1,0 +1,108 @@
+@media only screen and (max-width: 620px){
+    *{
+        width: 100%;
+    }
+}
+
+
+
+#nav{
+    text-align: center;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-style: inherit;
+}
+
+span:hover::after{
+    color: crimson;
+}
+.centered{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: oblique;
+    font-size: 1.5vw;
+}
+.centered1{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: oblique;
+    font-size: 1vw;
+}
+.centered2{
+    position: absolute;
+    top: 50%;
+    left: 86%;
+    transform: translate(-50%,-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.centered3{
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    font-size: 1.4vw;
+}
+.centered4{
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    font-size: 1.2vw;
+}
+.centered5{
+    position: absolute;
+    top: 83%;
+    left: 80%;
+}
+#about{
+    background-color: dodgerblue;
+}
+.form-style{
+    font: 100% Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #f7f7f7;
+}
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style textarea
+{
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style input[type="text"]:focus,
+.form-style input[type="email"]:focus,
+.form-style textarea:focus{
+    box-shadow: 0 0 5px rgb(238, 57, 11);
+    padding: 3%;
+    border: 1px solid rgb(238, 57, 11) ;
+}
+.form-style input[type="reset"],
+.form-style input[type="button"]
+{
+    width: 100%;
+    padding: 3%;
+    background : rgb(238, 57, 11);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    color: #fff;
+}

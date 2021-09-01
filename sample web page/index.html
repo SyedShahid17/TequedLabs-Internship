@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#abt1").hide();
+            $("#abt").click(function(){
+                $("#abt1").slideDown("slow");
+            });
+            $("#abt2").click(function(){
+                $("#abt1").slideToggle("slow");
+            });
+        });
+        $(document).ready(function(){
+            $("#edu").hide();
+            $("#edu3").hide();
+            $("#skills1").hide();
+            $("#lang1").hide();
+            $("#education").click(function(){
+                $("#edu").slideToggle("slow");
+            });
+            $("#edu1").click(function(){
+                $("#edu").slideDown("slow");
+                $("#edu3").slideDown("slow");
+            });
+            $("#edu2").click(function(){
+                $("#edu3").slideToggle("slow");
+            });
+            $("#Skills").click(function(){
+                $("#skills1").slideDown("slow");
+                $("#lang1").slideDown("slow");
+            });
+            $("#skills").click(function(){
+                $("#skills1").slideToggle("slow");
+            });
+            $("#lang").click(function(){
+                $("#lang1").slideToggle("slow");
+            });
+        });
+    </script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Portfolio</title>
+    <link rel="icon" href="portfolio.png" type="image/png" style="width: 100%;">
+</head>
+<body> 
+    <nav id="nav" style="overflow: auto;">
+        <a href="#about" style="text-decoration: none;"><span id="abt" style="color: black; ;font-family: Verdana, Geneva, Tahoma, sans-serif;">About</span></a> &nbsp;&emsp;  <a href="#education" style="text-decoration: none;"><span id="edu1" style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;">Education and Experience</span></a>&nbsp;&emsp;
+        <a href="#skills" style="text-decoration: none;"><span id="Skills" style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;">Skills and Languages</span></a>&nbsp;&emsp; <a href="#contact" style="text-decoration: none;"><span style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;">Contact</span></a>
+    </nav>
+    <div style="background-image: linear-gradient( rgba(0,0,0,0.91), rgba(0,0,0,0.8));">
+        <div>
+            <img src="back3.jpg" alt="img" style="height: 690px; width: 100%; transform: translate(-25%); filter: brightness(70%);">
+            <div class="centered">
+                <h2>Hello , I'm </h2>
+                <h1 style="font-size: 3vw;">Syed Shahid S</h1>
+                <h5>Full Stack web developer</h5>
+                <h6>Click on each section headings to view more.</h6>
+            </div>
+            <div class="centered1">
+                <img id="pic" src="pic.jpg" alt="pic" style="filter: brightness(110%); width: 100%;height: 50%; border-radius: 90%;border-style: groove; float: right; margin-left: 45px;">
+            </div>
+            <div class="centered2">
+                <p style="font-size: 1.5vw; font-family: monospace;"><strong>SYED SHAHID S</strong></p> 
+                <p style="font-size: 1.2vw;">Intern at <a href="https://tequedlabs.com/" target="_blank" style="text-decoration: none;font-size: 1.2vw; color: lightskyblue"> TEQUEDLABS</a></p>
+                <p>B.E in ECE at JSSATE Bangalore</p>
+            </div>
+            <div class="centered3">
+                <p><email><a href="mailto: ss0363626@gmail.com" style="text-decoration: none;color:lightskyblue;">ss0363626@gmail.com</a></email></p>
+                <p><number><a href="tel:+91 9035713318" style="text-decoration: none;color: lightskyblue">+91 9035713318</a></number></p>
+            </div>
+            <div class="centered4">
+                <button style="background-color:rgb(135, 176, 211); width: 100%; height:40px;">
+                   <a href="Resume-Example-1_Google-IT-Support.pdf" target="_blank" style="text-decoration: none;color:rgb(112, 7, 7);"> Download Resume </a>
+                </button>
+            </div>
+            <div class="centered5">
+               <a href="https://www.linkedin.com/in/syed-shahid-s-ss0363626"><img src="linkedin.png" alt="linkedin" style="width: 50px; height: 50px; border-radius: 100%;"> </a> &nbsp;&nbsp; <a href="https://github.com/SyedShahid17"> <img src="github.jpg" alt="github" style="width: 50px;height: 50px;border-radius: 100%;"></a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div style="position: absolute; top: 120%; left: 15%; right: 20%;" >
+            <h1 id="abt2" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">ABOUT</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">My Background</p>
+            <br>
+            <div>
+                <p id="abt1" style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>Full Stack Developer</strong> with some hands-on experience in designing, implementing applications and solutions using a range of technologies and programming languages. <br>
+                Seeking to leverage broad development experience and hands-on technical expertise in challenging role as FSWD. <br>
+                Click on the link <a href="https://github.com/SyedShahid17?tab=repositories" target="_blank" style="text-decoration: none;">SyedShahid17 </a> to view my work.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div style="width: 100%; position: absolute; top: 175%; left: 15%; right: 20%;" >
+            <h1 id="education" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Education.</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">What I've Learnt</p>
+            <br>
+                <div id="edu"> 
+                    <ol style="font-size: 1.4vw;">
+                        <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>Bachelors of Engineering.</h3>CGPA - 7.88 <br>2018-present <br>
+                            JSS Academy of Technical Education , Bangalore</p>
+                        </li>
+                        <li>
+                            <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3> II PUC / 12th.</h3>Percentage - 87 <br>passout - 2018 <br>
+                            Dayananda Sagar PU College , Bangalore</p>
+                        </li>
+                        <li>
+                            <p  style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3> SSLC / 10th.</h3> Percentage - 89 <br>passout - 2016 <br>
+                            JSS Academy of Technical Education , Bangalore</p>
+                        </li>
+                    </ol>
+                </div>
+        </div>
+    </div>
+    <div>
+        <div style="width: 100%; position: absolute; top: 175%; left: 55%; right: 20%;" >
+            <h1 id="edu2" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Experience.</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">Where I've worked.</p>
+            <br>
+            <div id="edu3">
+                <ol style="font-size: 1.4vw;">
+                    <li>
+                       <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>TequedLabs.</h3>
+                    Full Stack Web Developer Intern <br>  Aug 2021 - present <br> Bangalore 
+                    </p>
+                    </li>
+                    <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>Bharath Computers.</h3>IT Technician / Technical Support. <br> Sept 2020 - Jan 2021 <br>
+                          Seshadripuram , Bangalore</p>
+                     </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div style="width: 100%; position: absolute; top: 275%; left: 15%; right: 20%;" >
+            <h1 id="skills" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Skills.</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">What I bring to the Table.</p>
+            <br>
+            <div id="skills1">
+                <ol style="font-size: 1.4vw;">
+                    <li>
+                       <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"><h3>PYTHON</h3>Level - Intermediate  </p>
+                    </li>
+                    <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"><h3>JAVA</h3>Level - Beginner  </p>
+                     </li>
+                     <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"><h3>MySQL</h3>Level - Intermediate  </p>
+                     </li>
+                     <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"><h3>HTML , CSS , JAVASCRIPT .</h3>Level - Intermediate  </p>
+                     </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div >
+        <div style="width: 100%; position: absolute; top: 275%; left: 55%; right: 20%;" >
+            <h1 id="lang" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Languages.</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">What I bring to the Table.</p>
+            <br>
+            <div id="lang1">
+                <ol style="font-size: 1.4vw;">
+                    <li>
+                       <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>English</h3>Proficiency - Well Spoken, Read and Can Write.
+                    </p>
+                    </li>
+                    <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>Hindi , Kannada </h3>Proficiency - Well Spoken, Read and Can Write.
+                     </li>
+                     <li>
+                        <p style="font-size: 1.4vw;font-family: Verdana, Geneva, Tahoma, sans-serif;"> <h3>Urdu , Arabic. </h3>Proficiency - Well Read.
+                     </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<section>
+        <div style="width: 100%; position: absolute; top: 375%; left: 15%;">
+            <h1 id="contact" style="font-size: 2.2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Contact me.</h1>
+            <p style="font-size: 1.5vw;font-family: Verdana, Geneva, Tahoma, sans-serif;">I'd Love to hear from you.</p>                
+            <br>
+        </div>
+    <div id="contact1">
+        <div style="position: absolute; top: 400%; left: 15%;">
+            <div class="form-style">
+                <form action="#">
+                    <input type="text" name="field1" placeholder="Name" />
+                    <input type="email" name="field2" placeholder="Email">
+                    <textarea name="field3" placeholder="Type your message" cols="30" rows="10"></textarea>
+                    <input type="reset" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div style="width: 100%; position: absolute; top: 400%; left: 55%;">
+            <div>
+                <h3>email : <a href="mailto: ss0363626@gmail.com " style="text-decoration: none;"> ss0363626@gmail.com </a></h3>
+            </div> <br>
+            <div>
+                <p style="font-size: 1.2vw;">where to find me.</p><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2543426421644!2d77.52815266464502!3d12.955570040866437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e7055436bcd%3A0xa9dcfbd5f803bd12!2sVijaynagar%2C%20RPC%20Layout%2C%20Attiguppe%2C%20Bengaluru%2C%20Karnataka%20560040!5e0!3m2!1sen!2sin!4v1630395936651!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
+</html> 
